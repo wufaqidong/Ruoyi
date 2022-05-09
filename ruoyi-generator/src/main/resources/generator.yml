@@ -1,0 +1,17 @@
+# 代码生成
+gen:
+  # 作者
+  author: itkey
+  # 默认生成包路径 system 需改成自己的模块名称 如 system monitor tool
+  packageName: com.ruoyi.system
+  #packageName: com.ruoyi.sqlapi
+  # 自动去除表前缀，默认是false
+  autoRemovePre: false
+  # 表前缀（生成类名不会包含表前缀，多个用逗号分隔）
+  tablePrefix: sys_
+  # 生成代码保存的目录(临时目录)
+  generatorCodePath: /Users/itkey/Downloads/generatorCode
+  # Java后台的Src目录（后端项目代码存放的目录）
+  javaSrc: /Users/itkey/wisdom/RuoYi-Vue-Code-Generator/ruoyi-admin/src
+  # Vue前端的Src目录（前端项目代码存放的目录）
+  vueSrc:  /Users/itkey/wisdom/RuoYi-Vue-Code-Generator/ruoyi-ui/src
